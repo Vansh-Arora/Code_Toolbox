@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-
 def generate_permutations(perm,n):
     if len(perm) == n:
         print(perm)
-        return
+        return 
     for i in range(n):
         if i not in perm:
             perm.append(i)
             generate_permutations(perm,n)
             perm.pop()
-generate_permutations(perm = [], n = 4)
+
+generate_permutations(perm = [], n = int(input()))
