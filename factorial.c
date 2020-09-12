@@ -1,3 +1,4 @@
+// This works fine only till factorial(16)
 #include<stdio.h>
 int factorial(int num)
 {
@@ -5,12 +6,4 @@ int factorial(int num)
         return 1;
     
     return num * factorial(num - 1);
-}
-
-int main()
-{
-    int a;
-    scanf("%d",&a);
-    printf("%d",factorial(a));
-    return 0;
 }
