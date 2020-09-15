@@ -7,3 +7,5 @@ def f(n):
     for i in range(n):
         ans = ans + f(i)
     return ans+1 
+
+# Drawback: The above solution is very slow for large numbers
