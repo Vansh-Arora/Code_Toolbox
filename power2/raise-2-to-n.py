@@ -14,3 +14,9 @@ def f(n):
 #        return 1
 #    return 2 * f(n-1)
 # Using recursion we can only go till 997 i.e 2^997
+# Iterative approach:
+#def f(n):
+#   ans = 1
+#   for i in range(n):
+#       ans *= 2
+#   return ans
